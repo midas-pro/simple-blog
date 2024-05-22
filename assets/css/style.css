@@ -525,6 +525,7 @@ main {
 .service-item {
   position: relative;
   background: var(--border-gradient-onyx);
+  
   padding: 20px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
@@ -535,7 +536,7 @@ main {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--bg-gradient-jet);
+  background: white;
   border-radius: inherit;
   z-index: -1;
 }
@@ -546,10 +547,10 @@ main {
 
 .service-content-box { text-align: center; }
 
-.service-item-title { margin-bottom: 7px; }
+.service-item-title { margin-bottom: 7px;color:black }
 
 .service-item-text {
-  color: var(--light-gray);
+  color: black;
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
   line-height: 1.6;
@@ -750,8 +751,9 @@ main {
 
 .clients-item img {
   width: 100%;
-  filter: grayscale(1);
-  transition: var(--transition-1);
+  height:120px;
+  /* filter: grayscale(1);
+  transition: var(--transition-1); */
 }
 
 .clients-item img:hover { filter: grayscale(0); }
