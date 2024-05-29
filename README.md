@@ -21,13 +21,13 @@ To install **vCard**, follow these steps:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/midas-pro/simple-blog.git
+sudo git clone https://github.com/mm-pro/simple-blog.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/midas-pro/simple-blog.git
+git clone https://github.com/mm-pro/simple-blog.git
 ```
 
 ## Contact
