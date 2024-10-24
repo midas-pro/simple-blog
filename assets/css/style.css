@@ -441,6 +441,11 @@ main {
 .social-item .social-link {
   color: var(--light-gray-70);
   font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:10px;
 }
 
 
